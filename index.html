@@ -1,163 +1,216 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Colaborativa</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
+  </head>
+  <body>
     <div class="layout">
+      <header class="header">
+        <h1>📚 Biblioteca Colaborativa</h1>
+        <p>Agrega tu libro favorito directamente en el HTML</p>
+      </header>
 
-        <header class="header">
-            <h1>📚 Biblioteca Colaborativa</h1>
-            <p>Agrega tu libro favorito directamente en el HTML</p>
-        </header>
+      <main class="container">
+        <section class="library">
+          <article class="book">
+            <div class="book__image">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
+                alt="Cien años de soledad"
+              />
+            </div>
 
-        <main class="container">
+            <div class="book__content">
+              <h2 class="book__title">Cien años de soledad</h2>
+              <p class="book__author">Gabriel García Márquez</p>
+              <p class="book__description">
+                La historia de la familia Buendía a lo largo de varias
+                generaciones en el pueblo ficticio de Macondo.
+              </p>
 
-            <section class="library">
+              <a href="pages/template.html" class="book__button">
+                Ver detalles
+              </a>
+            </div>
+          </article>
 
+          <article class="book">
+            <div class="book__image">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+                alt="1984"
+              />
+            </div>
+            <div class="book__content">
+              <h2 class="book__title">Platero y yo</h2>
+              <p class="book__author">Juan Ramón Jiménez</p>
+              <p class="book__description">
+                La tierna historia de la amistad entre un poeta y su burrito
+                Platero en los paisajes de Moguer.
+              </p>
+              <a href="pages/ana-belen-libro.html" class="book__button">
+                Ver detalles
+              </a>
+            </div>
+          </article>
+        </section>
 
-                <article class="book">
+        <article class="book">
+          <div class="book__image">
+            <img
+              src="https://m.media-amazon.com/images/I/910Xn4QfB3L._AC_UF1000,1000_QL80_.jpg"
+              alt="Portada de Platero y yo"
+            />
+          </div>
+          <div class="book__content">
+            <h2 class="book__title">Platero y yo</h2>
+            <p class="book__author">Juan Ramón Jiménez</p>
+            <p class="book__description">
+              La tierna historia de la amistad entre un poeta y su burrito
+              Platero en los paisajes de Moguer.
+            </p>
+            <a href="pages/ana-belen-libro.html" class="book__button">
+              Ver detalles
+            </a>
+          </div>
+        </article>
 
-                    <div class="book__image">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
-                            alt="Cien años de soledad">
-                    </div>
+        <article class="book">
+          <div class="book__image">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+              alt="1984"
+            />
+          </div>
 
-                    <div class="book__content">
-                        <h2 class="book__title">Cien años de soledad</h2>
-                        <p class="book__author">Gabriel García Márquez</p>
-                        <p class="book__description">
-                            La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de
-                            Macondo.
-                        </p>
+          <div class="book__content">
+            <h2 class="book__title">1984</h2>
+            <p class="book__author">George Orwell</p>
+            <p class="book__description">
+              Una novela distópica que retrata un mundo totalitario dominado por
+              la vigilancia, el control del pensamiento y la manipulación de la
+              verdad.
+            </p>
 
-                        <a href="pages/template.html" class="book__button">
-                            Ver detalles
-                        </a>
-                    </div>
+            <a href="pages/template.html" class="book__button">
+              Ver detalles
+            </a>
+          </div>
 
-                </article>
+          <div class="la-asistenta">
+            <h2 class="book-tittle">La asistenta</h2>
+            <p class="book-autor">Freida McFadden</p>
+            <p class="book-description">
+              La historia sigue a una mujer que consigue trabajo como asistenta
+              en una casa aparentemente perfecta, pero pronto descubre que la
+              familia para la que trabaja esconde secretos oscuros.
+            </p>
+            <a href="pages/template.html" class="book__button">
+              Ver detalles
+            </a>
+          </div>
+        </article>
 
+        <article class="book">
+          <div class="book__image">
+            <img
+              src="https://images.cdn1.buscalibre.com/fit-in/520x520/3a/41/3a413318bd8f816de19b58b735ec62b7.jpg"
+              alt="El libro de los 5 anillos"
+            />
+          </div>
 
-                <article class="book">
-                    <div class="book__image">
-                        <img src="https://m.media-amazon.com/images/I/910Xn4QfB3L._AC_UF1000,1000_QL80_.jpg"
-                            alt="Portada de Platero y yo">
-                    </div>
-                    <div class="book__content">
-                        <h2 class="book__title">Platero y yo</h2>
-                        <p class="book__author">Juan Ramón Jiménez</p>
-                        <p class="book__description">
-                            La tierna historia de la amistad entre un poeta y su burrito Platero en los paisajes de
-                            Moguer.
-                        </p>
-                        <a href="pages/ana-belen-libro.html" class="book__button">
-                            Ver detalles
-                        </a>
-                    </div>
-                </article>
-            </section>
+          <div class="book__content">
+            <h2 class="book__title">El libro de los 5 anillos</h2>
+            <p class="book__author">Miyamoto Musashi</p>
+            <p class="book__description">
+              Un tratado clásico sobre estrategia, tácticas y filosofía en el
+              combate, escrito por el legendario samurái. Aunque enfocado en
+              artes marciales, sus enseñanzas se aplican también a los negocios
+              y la vida.
+            </p>
 
+            <a href="pages/template.html" class="book__button">
+              Ver detalles
+            </a>
+          </div>
+        </article>
+        <article class="book">
+          <div class="book__image">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+              alt="1984"
+            />
+          </div>
+          <!-- Libro de Rubén -->
+          <div class="book__content">
+            <h2 class="book__title">Eragon</h2>
+            <p class="book__author">Christopher Paolini</p>
+            <p class="book__description">
+              Una saga de libros que cuentan la historia de Eragon, un campesino
+              corriente que, por desidios del destino, su vida cambiará para
+              siempre al convertirse en un jinete de dragones en el conflictivo
+              reino de Alagaësis
+            </p>
 
+            <a href="pages/Eragon.html" class="book__button"> Ver detalles </a>
+          </div>
+        </article>
 
+        <article class="book">
+          <div class="book__image">
+            <img
+              src="https://images.cdn1.buscalibre.com/fit-in/520x520/3a/41/3a413318bd8f816de19b58b735ec62b7.jpg"
+              alt="El libro de los 5 anillos"
+            />
+          </div>
 
-            <article class="book">
+          <div class="book__content">
+            <h2 class="book__title">El libro de los 5 anillos</h2>
+            <p class="book__author">Miyamoto Musashi</p>
+            <p class="book__description">
+              Un tratado clásico sobre estrategia, tácticas y filosofía en el
+              combate, escrito por el legendario samurái. Aunque enfocado en
+              artes marciales, sus enseñanzas se aplican también a los negocios
+              y la vida.
+            </p>
 
-                <div class="book__image">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg" alt="1984">
-                </div>
+            <a href="pages/template.html" class="book__button">
+              Ver detalles
+            </a>
+          </div>
+        </article>
+        <article class="book">
+          <div class="book__image">
+            <img
+              src="https://imagessl0.casadellibro.com/a/l/s7/20/9788467052220.webp"
+              alt="1984"
+            />
+          </div>
+          <div class="book__content">
+            <h2 class="book__title">El Encanto</h2>
+            <p class="book__author">Susana López Rubio</p>
+            <p class="book__description">
+              El Encanto” es una novela histórica y de realismo social que
+              explora la vida en la Habana de los años 50, mezclando romance,
+              intriga y retratos de la sociedad de la época.
+            </p>
+            <a href="pages/ana-belen-libro.html" class="book__button">
+              Ver detalles
+            </a>
+          </div>
+        </article>
+      </main>
 
-                <div class="book__content">
-                    <h2 class="book__title">1984</h2>
-                    <p class="book__author">George Orwell</p>
-                    <p class="book__description">
-                        Una novela distópica que retrata un mundo totalitario dominado por la vigilancia,
-                        el control del pensamiento y la manipulación de la verdad.
-                    </p>
-
-                    <a href="pages/template.html" class="book__button">
-                        Ver detalles
-                    </a>
-                </div>
-
-                <div class="la-asistenta" <h2 class="book-tittle">La asistenta</h2>
-                    <p class="book-autor">Freida McFadden</p>
-                    <p class="book-description">
-
-                        La historia sigue a una mujer que consigue trabajo como asistenta en una casa aparentemente
-                        perfecta, pero pronto descubre que la familia para la que trabaja esconde secretos oscuros.
-
-                    </p>
-                    <a href="pages/template.html" class="book__button">
-                        Ver detalles
-                    </a>
-
-
-
-                </div>
-
-            </article>
-            <article class="book">
-
-                <div class="book__image">
-                    <img src="https://images.cdn1.buscalibre.com/fit-in/520x520/3a/41/3a413318bd8f816de19b58b735ec62b7.jpg"
-                        alt="El libro de los 5 anillos">
-                </div>
-
-                <div class="book__content">
-                    <h2 class="book__title">El libro de los 5 anillos</h2>
-                    <p class="book__author">Miyamoto Musashi</p>
-                    <p class="book__description">
-                        Un tratado clásico sobre estrategia, tácticas y filosofía en el combate, escrito por el
-                        legendario samurái. Aunque enfocado en artes marciales, sus enseñanzas se aplican también a
-                        los negocios y la vida.
-                    </p>
-
-                    <a href="pages/template.html" class="book__button">
-                        Ver detalles
-                    </a>
-                </div>
-
-            </article>
-            <article class="book">
-
-                <div class="book__image">
-                    <img src="https://proassetspdlcom.cdnstatics2.com/usuaris/libros/fotos/362/original/portada_la-naranja-mecanica-60-aniversario_anthony-burgess_202210141234.jpg"
-                        alt="La naranja mecánica">
-                </div>
-
-                <div class="book__content">
-                    <h2 class="book__title">La naranja mecánica</h2>
-                    <p class="book__author">Anthony Burgess</p>
-                    <p class="book__description">
-                        Una novela distópica sobre la violencia, el libre albedrío y la naturaleza humana a través de
-                        Alex, un joven delincuente en una sociedad futurista.
-                    </p>
-
-                    <a href="pages/la_naranja_mecanica.html" class="book__button">
-                        Ver detalles
-                    </a>
-                </div>
-
-            </article>
-
-            </section>
-
-        </main>
-
-        <footer class="footer">
-            <p>Proyecto para práctica de colaboración y manejo de conflictos en Git</p>
-        </footer>
-
+      <footer class="footer">
+        <p>
+          Proyecto para práctica de colaboración y manejo de conflictos en Git
+        </p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
