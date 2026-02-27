@@ -1,38 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Colaborativa</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
 
+  <body>
     <div class="layout">
+      <header class="header">
+        <h1>📚 Biblioteca Colaborativa</h1>
+        <p>Agrega tu libro favorito directamente en el HTML</p>
+      </header>
 
-        <header class="header">
-            <h1>📚 Biblioteca Colaborativa</h1>
-            <p>Agrega tu libro favorito directamente en el HTML</p>
-        </header>
+      <main class="container">
+        <section class="library">
+          <article class="book">
+            <div class="book__image">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
+                alt="Cien años de soledad"
+              />
+            </div>
 
-        <main class="container">
-
-            <section class="library">
-
-                
-                <article class="book">
-
-                    <div class="book__image">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
-                             alt="Cien años de soledad">
-                    </div>
-
-                    <div class="book__content">
-                        <h2 class="book__title">Cien años de soledad</h2>
-                        <p class="book__author">Gabriel García Márquez</p>
-                        <p class="book__description">
-                            La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.
-                        </p>
+            <div class="book__content">
+              <h2 class="book__title">Cien años de soledad</h2>
+              <p class="book__author">Gabriel García Márquez</p>
+              <p class="book__description">
+                La historia de la familia Buendía a lo largo de varias
+                generaciones en el pueblo ficticio de Macondo.
+              </p>
 
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
@@ -41,23 +39,68 @@
 
                 </article>
 
-                
+
+          <article class="book">
+            <div class="book__image">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+                alt="1984"
+              />
+            </div>
+
+            <div class="book__content">
+              <h2 class="book__title">1984</h2>
+              <p class="book__author">George Orwell</p>
+              <p class="book__description">
+                Una novela distópica que retrata un mundo totalitario dominado
+                por la vigilancia, el control del pensamiento y la manipulación
+                de la verdad.
+              </p>
+
+                        <a href="pages/template.html" class="book__button">
+                            Ver detalles
+                        </a>
+                    </div>
+
+                </article>
                 <article class="book">
 
                     <div class="book__image">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
-                             alt="1984">
+                        <img src="https://images.cdn1.buscalibre.com/fit-in/520x520/3a/41/3a413318bd8f816de19b58b735ec62b7.jpg"
+                            alt="El libro de los 5 anillos">
+                    </div>
+
+            <div class="book__content">
+              <h2 class="book__title">El libro de los 5 anillos</h2>
+              <p class="book__author">Miyamoto Musashi</p>
+              <p class="book__description">
+                Un tratado clásico sobre estrategia, tácticas y filosofía en el
+                combate, escrito por el legendario samurái. Aunque enfocado en
+                artes marciales, sus enseñanzas se aplican también a los
+                negocios y la vida.
+              </p>
+
+                        <a href="pages/template.html" class="book__button">
+                            Ver detalles
+                        </a>
+                    </div>
+
+                </article>
+                <article class="book">
+
+                    <div class="book__image">
+                        <img src="https://proassetspdlcom.cdnstatics2.com/usuaris/libros/fotos/362/original/portada_la-naranja-mecanica-60-aniversario_anthony-burgess_202210141234.jpg"
+                             alt="La naranja mecánica">
                     </div>
 
                     <div class="book__content">
-                        <h2 class="book__title">1984</h2>
-                        <p class="book__author">George Orwell</p>
+                        <h2 class="book__title">La naranja mecánica</h2>
+                        <p class="book__author">Anthony Burgess</p>
                         <p class="book__description">
-                            Una novela distópica que retrata un mundo totalitario dominado por la vigilancia,
-                            el control del pensamiento y la manipulación de la verdad.
+                            Una novela distópica sobre la violencia, el libre albedrío y la naturaleza humana a través de Alex, un joven delincuente en una sociedad futurista.
                         </p>
 
-                        <a href="pages/template.html" class="book__button">
+                        <a href="pages/la_naranja_mecanica.html" class="book__button">
                             Ver detalles
                         </a>
                     </div>
@@ -84,12 +127,13 @@
 
         </main>
 
-        <footer class="footer">
-            <p>Proyecto para práctica de colaboración y manejo de conflictos en Git</p>
-        </footer>
-
+      <footer class="footer">
+        <p>
+          Proyecto para práctica de colaboración y manejo de conflictos en Git
+        </p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
