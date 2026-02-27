@@ -1,36 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Colaborativa</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
+
     <div class="layout">
-      <header class="header">
-        <h1>📚 Biblioteca Colaborativa</h1>
-        <p>Agrega tu libro favorito directamente en el HTML</p>
-      </header>
 
-      <main class="container">
-        <section class="library">
-          <article class="book">
-            <div class="book__image">
-              <img
-                src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
-                alt="Cien años de soledad"
-              />
-            </div>
+        <header class="header">
+            <h1>📚 Biblioteca Colaborativa</h1>
+            <p>Agrega tu libro favorito directamente en el HTML</p>
+        </header>
 
-            <div class="book__content">
-              <h2 class="book__title">Cien años de soledad</h2>
-              <p class="book__author">Gabriel García Márquez</p>
-              <p class="book__description">
-                La historia de la familia Buendía a lo largo de varias
-                generaciones en el pueblo ficticio de Macondo.
-              </p>
+        <main class="container">
+
+            <section class="library">
+
+
+                <article class="book">
+
+                    <div class="book__image">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
+                            alt="Cien años de soledad">
+                    </div>
+
+                    <div class="book__content">
+                        <h2 class="book__title">Cien años de soledad</h2>
+                        <p class="book__author">Gabriel García Márquez</p>
+                        <p class="book__description">
+                            La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de
+                            Macondo.
+                        </p>
 
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
@@ -39,27 +44,77 @@
 
                 </article>
 
+                
+                <article class="book">
+                    <div class="book__image">
+                        <img src="https://m.media-amazon.com/images/I/910Xn4QfB3L._AC_UF1000,1000_QL80_.jpg"
+                            alt="Portada de Platero y yo">
+                    </div>
+                    <div class="book__content">
+                        <h2 class="book__title">Platero y yo</h2>
+                        <p class="book__author">Juan Ramón Jiménez</p>
+                        <p class="book__description">
+                            La tierna historia de la amistad entre un poeta y su burrito Platero en los paisajes de Moguer.
+                        </p>
+                        <a href="pages/ana-belen-libro.html" class="book__button">
+                            Ver detalles
+                        </a>
+                    </div>
+                </article>
+                </section>
+                ```
 
-          <article class="book">
-            <div class="book__image">
-              <img
-                src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
-                alt="1984"
-              />
-            </div>
+---
 
-            <div class="book__content">
-              <h2 class="book__title">1984</h2>
-              <p class="book__author">George Orwell</p>
-              <p class="book__description">
-                Una novela distópica que retrata un mundo totalitario dominado
-                por la vigilancia, el control del pensamiento y la manipulación
-                de la verdad.
-              </p>
+### ### Pasos clave para que no falle:
+
+1.  **La Imagen:** Si no tienes una URL a mano, puedes dejar la que está por defecto, pero lo ideal es buscar la portada en Google Imágenes, hacer clic derecho y darle a *"Copiar dirección de imagen"*.
+2.  **El Enlace (`href`):** Asegúrate de que pones exactamente el nombre del archivo que creaste antes en la carpeta `pages/`. Si lo llamaste `ana-belen-libro.html`, pon eso.
+3.  **Ubicación:** Pégalo justo debajo del bloque de "1984" de George Orwell.
+
+### ### El riesgo de Conflicto (Lo que explicamos antes)
+Como todos vais a pegar vuestro `<article>` casi en el mismo sitio, cuando hagas el `git pull` o `git push`, es muy probable que Git te diga que hay un conflicto en el `index.html`.
+
+**¿Te acuerdas de la solución?**
+* Verás las marcas `<<<<<<< HEAD`.
+* Elige **"Accept Both Changes"** para que se queden los libros que han puesto tus compañeros y también el tuyo.
+
+**¿Qué libro vas a poner?** Si me dices el título, te ayudo a buscar una URL de imagen para que quede espectacular.
+
+
+                <article class="book">
+
+                    <div class="book__image">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg" alt="1984">
+                    </div>
+
+                    <div class="book__content">
+                        <h2 class="book__title">1984</h2>
+                        <p class="book__author">George Orwell</p>
+                        <p class="book__description">
+                            Una novela distópica que retrata un mundo totalitario dominado por la vigilancia,
+                            el control del pensamiento y la manipulación de la verdad.
+                        </p>
 
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
                         </a>
+                    </div>
+
+                    <div class="la-asistenta" <h2 class="book-tittle">La asistenta</h2>
+                        <p class="book-autor">Freida McFadden</p>
+                        <p class="book-description">
+
+                            La historia sigue a una mujer que consigue trabajo como asistenta en una casa aparentemente
+                            perfecta, pero pronto descubre que la familia para la que trabaja esconde secretos oscuros.
+
+                        </p>
+                        <a href="pages/template.html" class="book__button">
+                            Ver detalles
+                        </a>
+
+
+
                     </div>
 
                 </article>
@@ -70,15 +125,14 @@
                             alt="El libro de los 5 anillos">
                     </div>
 
-            <div class="book__content">
-              <h2 class="book__title">El libro de los 5 anillos</h2>
-              <p class="book__author">Miyamoto Musashi</p>
-              <p class="book__description">
-                Un tratado clásico sobre estrategia, tácticas y filosofía en el
-                combate, escrito por el legendario samurái. Aunque enfocado en
-                artes marciales, sus enseñanzas se aplican también a los
-                negocios y la vida.
-              </p>
+                    <div class="book__content">
+                        <h2 class="book__title">El libro de los 5 anillos</h2>
+                        <p class="book__author">Miyamoto Musashi</p>
+                        <p class="book__description">
+                            Un tratado clásico sobre estrategia, tácticas y filosofía en el combate, escrito por el
+                            legendario samurái. Aunque enfocado en artes marciales, sus enseñanzas se aplican también a
+                            los negocios y la vida.
+                        </p>
 
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
@@ -106,34 +160,18 @@
                     </div>
 
                 </article>
- <article class="book">
 
-                    <div class="book__image">
-                        <img src="https://www.amazon.es/gp/aw/d/8498381495/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=038f11a2f8d3812d577d61314cd1a666&hsa_cr_id=0&qid=1772192744&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=rikTWcHZxG&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=shdfv&content-id=amzn1.sym.4b9f096f-8599-402f-8225-de45f1b84474%3Aamzn1.sym.4b9f096f-8599-402f-8225-de45f1b84474&pf_rd_p=4b9f096f-8599-402f-8225-de45f1b84474&pf_rd_r=525S5P34KP2H8RXK66V0&pd_rd_wg=sMBAO&pd_rd_r=55e82186-4147-4413-b271-7e6f3caa8c40"
-                            alt="Portada del Principito">
-                    </div>
-                    <div class="book__content">
-                        <h2 class="book__title">el principito</h2>
-                        <p class="book__author">Antoine De Saint Exupery </p>
-                        <p class="book__description">
-                           Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión de Saint-Exupéry sobre la amistad, el amor, la responsabilidad y el sentido de la vida.
-                        </p> <a href="pages/principito.html" class="book__button">
-                            Ver detalles
-                        </a>
-                    </div>
-
-                </article>
             </section>
 
         </main>
 
-      <footer class="footer">
-        <p>
-          Proyecto para práctica de colaboración y manejo de conflictos en Git
-        </p>
-      </footer>
+        <footer class="footer">
+            <p>Proyecto para práctica de colaboración y manejo de conflictos en Git</p>
+        </footer>
+
     </div>
 
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
