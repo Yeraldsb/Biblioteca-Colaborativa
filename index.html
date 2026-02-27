@@ -43,6 +43,41 @@
                     </div>
 
                 </article>
+                <article class="book">
+
+                    <div class="book__image">
+                        <img src="https://m.media-amazon.com/images/I/910Xn4QfB3L._AC_UF1000,1000_QL80_.jpg"
+                            alt="Portada de Platero y yo">
+                    </div>
+                    <div class="book__content">
+                        <h2 class="book__title">Platero y yo</h2>
+                        <p class="book__author">Juan Ramón Jiménez</p>
+                        <p class="book__description">
+                            La tierna historia de la amistad entre un poeta y su burrito Platero en los paisajes de Moguer.
+                        </p> <a href="pages/ana-belen-libro.html" class="book__button">
+                            Ver detalles
+                        </a>
+                    </div>
+
+                </article>
+                ```
+
+---
+
+### ### Pasos clave para que no falle:
+
+1.  **La Imagen:** Si no tienes una URL a mano, puedes dejar la que está por defecto, pero lo ideal es buscar la portada en Google Imágenes, hacer clic derecho y darle a *"Copiar dirección de imagen"*.
+2.  **El Enlace (`href`):** Asegúrate de que pones exactamente el nombre del archivo que creaste antes en la carpeta `pages/`. Si lo llamaste `ana-belen-libro.html`, pon eso.
+3.  **Ubicación:** Pégalo justo debajo del bloque de "1984" de George Orwell.
+
+### ### El riesgo de Conflicto (Lo que explicamos antes)
+Como todos vais a pegar vuestro `<article>` casi en el mismo sitio, cuando hagas el `git pull` o `git push`, es muy probable que Git te diga que hay un conflicto en el `index.html`.
+
+**¿Te acuerdas de la solución?**
+* Verás las marcas `<<<<<<< HEAD`.
+* Elige **"Accept Both Changes"** para que se queden los libros que han puesto tus compañeros y también el tuyo.
+
+**¿Qué libro vas a poner?** Si me dices el título, te ayudo a buscar una URL de imagen para que quede espectacular.
 
 
                 <article class="book">
@@ -62,6 +97,22 @@
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
                         </a>
+                    </div>
+
+                    <div class="la-asistenta" <h2 class="book-tittle">La asistenta</h2>
+                        <p class="book-autor">Freida McFadden</p>
+                        <p class="book-description">
+
+                            La historia sigue a una mujer que consigue trabajo como asistenta en una casa aparentemente
+                            perfecta, pero pronto descubre que la familia para la que trabaja esconde secretos oscuros.
+
+                        </p>
+                        <a href="pages/template.html" class="book__button">
+                            Ver detalles
+                        </a>
+
+
+
                     </div>
 
                 </article>
