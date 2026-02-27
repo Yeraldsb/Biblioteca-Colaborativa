@@ -1,41 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Colaborativa</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="layout">
+      <header class="header">
+        <h1>📚 Biblioteca Colaborativa</h1>
+        <p>Agrega tu libro favorito directamente en el HTML</p>
+      </header>
 
-        <header class="header">
-            <h1>📚 Biblioteca Colaborativa</h1>
-            <p>Agrega tu libro favorito directamente en el HTML</p>
-        </header>
+      <main class="container">
+        <section class="library">
+          <article class="book">
+            <div class="book__image">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
+                alt="Cien años de soledad"
+              />
+            </div>
 
-        <main class="container">
-
-            <section class="library">
-
-
-                <article class="book">
-
-                    <div class="book__image">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/91TvVQS7loL.jpg"
-                            alt="Cien años de soledad">
-                    </div>
-
-                    <div class="book__content">
-                        <h2 class="book__title">Cien años de soledad</h2>
-                        <p class="book__author">Gabriel García Márquez</p>
-                        <p class="book__description">
-                            La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de
-                            Macondo.
-                        </p>
+            <div class="book__content">
+              <h2 class="book__title">Cien años de soledad</h2>
+              <p class="book__author">Gabriel García Márquez</p>
+              <p class="book__description">
+                La historia de la familia Buendía a lo largo de varias
+                generaciones en el pueblo ficticio de Macondo.
+              </p>
 
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
@@ -59,19 +54,22 @@
 
                 </article>
 
-                <article class="book">
+          <article class="book">
+            <div class="book__image">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+                alt="1984"
+              />
+            </div>
 
-                    <div class="book__image">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg" alt="1984">
-                    </div>
-
-                    <div class="book__content">
-                        <h2 class="book__title">1984</h2>
-                        <p class="book__author">George Orwell</p>
-                        <p class="book__description">
-                            Una novela distópica que retrata un mundo totalitario dominado por la vigilancia,
-                            el control del pensamiento y la manipulación de la verdad.
-                        </p>
+            <div class="book__content">
+              <h2 class="book__title">1984</h2>
+              <p class="book__author">George Orwell</p>
+              <p class="book__description">
+                Una novela distópica que retrata un mundo totalitario dominado
+                por la vigilancia, el control del pensamiento y la manipulación
+                de la verdad.
+              </p>
 
                         <a href="pages/template.html" class="book__button">
                             Ver detalles
@@ -86,16 +84,54 @@
                             alt="El libro de los 5 anillos">
                     </div>
 
-                    <div class="book__content">
-                        <h2 class="book__title">El libro de los 5 anillos</h2>
-                        <p class="book__author">Miyamoto Musashi</p>
-                        <p class="book__description">
-                            Un tratado clásico sobre estrategia, tácticas y filosofía en el combate, escrito por el
-                            legendario samurái. Aunque enfocado en artes marciales, sus enseñanzas se aplican también a
-                            los negocios y la vida.
-                        </p>
+            <div class="book__content">
+              <h2 class="book__title">El libro de los 5 anillos</h2>
+              <p class="book__author">Miyamoto Musashi</p>
+              <p class="book__description">
+                Un tratado clásico sobre estrategia, tácticas y filosofía en el
+                combate, escrito por el legendario samurái. Aunque enfocado en
+                artes marciales, sus enseñanzas se aplican también a los
+                negocios y la vida.
+              </p>
 
                         <a href="pages/template.html" class="book__button">
+                            Ver detalles
+                        </a>
+                    </div>
+
+                </article>
+                <article class="book">
+
+                    <div class="book__image">
+                        <img src="https://proassetspdlcom.cdnstatics2.com/usuaris/libros/fotos/362/original/portada_la-naranja-mecanica-60-aniversario_anthony-burgess_202210141234.jpg"
+                             alt="La naranja mecánica">
+                    </div>
+
+                    <div class="book__content">
+                        <h2 class="book__title">La naranja mecánica</h2>
+                        <p class="book__author">Anthony Burgess</p>
+                        <p class="book__description">
+                            Una novela distópica sobre la violencia, el libre albedrío y la naturaleza humana a través de Alex, un joven delincuente en una sociedad futurista.
+                        </p>
+
+                        <a href="pages/la_naranja_mecanica.html" class="book__button">
+                            Ver detalles
+                        </a>
+                    </div>
+
+                </article>
+ <article class="book">
+
+                    <div class="book__image">
+                        <img src="https://www.amazon.es/gp/aw/d/8498381495/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=038f11a2f8d3812d577d61314cd1a666&hsa_cr_id=0&qid=1772192744&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=rikTWcHZxG&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=shdfv&content-id=amzn1.sym.4b9f096f-8599-402f-8225-de45f1b84474%3Aamzn1.sym.4b9f096f-8599-402f-8225-de45f1b84474&pf_rd_p=4b9f096f-8599-402f-8225-de45f1b84474&pf_rd_r=525S5P34KP2H8RXK66V0&pd_rd_wg=sMBAO&pd_rd_r=55e82186-4147-4413-b271-7e6f3caa8c40"
+                            alt="Portada del Principito">
+                    </div>
+                    <div class="book__content">
+                        <h2 class="book__title">el principito</h2>
+                        <p class="book__author">Antoine De Saint Exupery </p>
+                        <p class="book__description">
+                           Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión de Saint-Exupéry sobre la amistad, el amor, la responsabilidad y el sentido de la vida.
+                        </p> <a href="pages/principito.html" class="book__button">
                             Ver detalles
                         </a>
                     </div>
@@ -105,13 +141,13 @@
 
         </main>
 
-        <footer class="footer">
-            <p>Proyecto para práctica de colaboración y manejo de conflictos en Git</p>
-        </footer>
-
+      <footer class="footer">
+        <p>
+          Proyecto para práctica de colaboración y manejo de conflictos en Git
+        </p>
+      </footer>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
